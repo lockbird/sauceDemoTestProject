@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
-public class authorizationPage {
+public class AuthorizationPage {
 
     private SelenideElement
             userName = $("#user-name"),
@@ -16,31 +16,31 @@ public class authorizationPage {
             errorMessageContainer = $("[data-test=error]"),
             shoppingCartContainer = $("#shopping_cart_container");
 
-    public authorizationPage setUserName(String value) {
+    public AuthorizationPage setUserName(String value) {
         userName.setValue(value);
 
         return this;
     }
 
-    public authorizationPage setPassword(String value) {
+    public AuthorizationPage setPassword(String value) {
         password.setValue(value);
 
         return this;
     }
 
-    public authorizationPage loginButtonClick() {
+    public AuthorizationPage loginButtonClick() {
         loginButton.click();
 
         return this;
     }
 
-    public authorizationPage verifyAuthorization() {
+    public AuthorizationPage verifyAuthorization() {
         shoppingCartContainer.shouldBe(visible);
 
         return this;
     }
 
-    public authorizationPage verifyResultsError(String text) {
+    public AuthorizationPage verifyResultsError(String text) {
         errorContainer.shouldBe(visible);
         errorMessageContainer.shouldHave(exactText(text));
 

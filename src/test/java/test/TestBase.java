@@ -4,14 +4,17 @@ import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import pages.authorizationPage;
+import pages.AuthorizationPage;
+import pages.CardProductPage;
+
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
-public class testBase {
+public class TestBase {
 
-    pages.authorizationPage authorizationPage = new authorizationPage();
+    pages.AuthorizationPage authorizationPage = new AuthorizationPage();
+    pages.CardProductPage cardProductPage = new CardProductPage();
 
     @BeforeAll
     static void beforeAll() {

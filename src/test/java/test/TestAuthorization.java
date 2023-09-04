@@ -2,7 +2,7 @@ package test;
 
 import org.junit.jupiter.api.Test;
 
-public class testAuthorization extends testBase {
+public class TestAuthorization extends TestBase {
 
     @Test
     void validAuthorization() {
