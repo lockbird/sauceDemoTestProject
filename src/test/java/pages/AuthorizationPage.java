@@ -9,21 +9,21 @@ import static com.codeborne.selenide.Selenide.$;
 public class AuthorizationPage {
 
     private SelenideElement
-            userName = $("#user-name"),
-            password = $("#password"),
+            userNameInput = $("#user-name"),
+            passwordInput = $("#password"),
             loginButton = $("#login-button"),
             errorContainer = $(".error"),
             errorMessageContainer = $("[data-test=error]"),
             shoppingCartContainer = $("#shopping_cart_container");
 
     public AuthorizationPage setUserName(String value) {
-        userName.setValue(value);
+        userNameInput.setValue(value);
 
         return this;
     }
 
     public AuthorizationPage setPassword(String value) {
-        password.setValue(value);
+        passwordInput.setValue(value);
 
         return this;
     }
