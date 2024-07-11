@@ -2,13 +2,15 @@ plugins {
     id 'java-library'
 }
 
+group 'com.saucedemo'
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
     testImplementation (
-            "com.codeborne:selenide:6.16.1",
+            "com.codeborne:selenide:7.3.3",
             "org.junit.jupiter:junit-jupiter-api:5.10.0",
             "org.junit.jupiter:junit-jupiter-engine:5.10.0",
             "org.slf4j:slf4j-simple:2.0.7"

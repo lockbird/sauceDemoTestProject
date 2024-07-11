@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.TestCardProduct" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-06-29T18:47:44" hostname="DESKTOP-I3VH7SU" time="30.269">
+  <properties/>
+  <testcase name="cardProductFirstAZSort()" classname="test.TestCardProduct" time="3.103"/>
+  <testcase name="cardProductLastPriceAscending()" classname="test.TestCardProduct" time="2.776"/>
+  <testcase name="cardProductFirstZASort()" classname="test.TestCardProduct" time="2.626"/>
+  <testcase name="cardProductFirstPriceAscending()" classname="test.TestCardProduct" time="2.807"/>
+  <testcase name="cardProductAddToCartButton()" classname="test.TestCardProduct" time="2.617"/>
+  <testcase name="cardProductRemoveButton()" classname="test.TestCardProduct" time="2.623"/>
+  <testcase name="cardProductLastPriceDescending()" classname="test.TestCardProduct" time="2.691"/>
+  <testcase name="cardProductFirstPriceDescending()" classname="test.TestCardProduct" time="2.637"/>
+  <testcase name="cardProductLastAZSort()" classname="test.TestCardProduct" time="3.172"/>
+  <testcase name="cardProductBackButton()" classname="test.TestCardProduct" time="2.546"/>
+  <testcase name="cardProductLastZASort()" classname="test.TestCardProduct" time="2.659"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686864058_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (847d0f399c410dd7d737163d8c200560), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686864058_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (847d0f399c410dd7d737163d8c200560), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686864058_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686864058_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (847d0f399c410dd7d737163d8c200560)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 122 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686864058_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686867132_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (a1461eb604ed7a75a34dc7902a443614), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686867132_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (a1461eb604ed7a75a34dc7902a443614), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686867132_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686867132_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (a1461eb604ed7a75a34dc7902a443614)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 127 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686867132_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686869909_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (8f1a9f4931f5008ac9bc6e1689370246), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686869909_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (8f1a9f4931f5008ac9bc6e1689370246), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686869909_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686869909_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (8f1a9f4931f5008ac9bc6e1689370246)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 139 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686869909_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686872537_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (654f8c68e7afe30f41dec0378ae71981), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686872537_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (654f8c68e7afe30f41dec0378ae71981), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686872537_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686872537_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (654f8c68e7afe30f41dec0378ae71981)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 142 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686872537_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686875344_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (240725e3eb9d7485599e8cdf52e74fb1), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686875344_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (240725e3eb9d7485599e8cdf52e74fb1), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686875344_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686875344_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (240725e3eb9d7485599e8cdf52e74fb1)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 145 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686875344_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686877964_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (b555e2b5b97dbef1a0aa26b432287a1d), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686877964_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (b555e2b5b97dbef1a0aa26b432287a1d), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686877964_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686877964_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (b555e2b5b97dbef1a0aa26b432287a1d)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 130 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686877964_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686880589_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (bbeb2a776b1728a68c3d368fa8793778), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686880589_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (bbeb2a776b1728a68c3d368fa8793778), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686880589_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686880589_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (bbeb2a776b1728a68c3d368fa8793778)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 116 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686880589_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686883282_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (92b2e221a94dfd0681182da22d31b7bb), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686883282_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (92b2e221a94dfd0681182da22d31b7bb), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686883282_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686883282_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (92b2e221a94dfd0681182da22d31b7bb)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 123 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686883282_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686885920_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (a3460665afb03bfce0ccece53be2154f), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686885920_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (a3460665afb03bfce0ccece53be2154f), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686885920_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686885920_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (a3460665afb03bfce0ccece53be2154f)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 115 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686885920_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686889091_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (13732d9a6d66c06b07dba9f537ed5113), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686889091_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (13732d9a6d66c06b07dba9f537ed5113), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686889091_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686889091_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (13732d9a6d66c06b07dba9f537ed5113)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 132 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686889091_12792_1] in 1 [size=0]
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686891639_12792_1
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=126.0.6478.127 Platform=windows
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.3.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.22.0 build revision: c5f3146703*
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (8a73048fae01c6fbd0cf3b0803884758), downloadsFolder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686891639_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (8a73048fae01c6fbd0cf3b0803884758), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686891639_12792_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686891639_12792_1
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 1 -> ChromeDriver: chrome on windows (8a73048fae01c6fbd0cf3b0803884758)...
+[Test worker] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 1 in 120 ms
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\dmc4_\Documents\Git repositories\sauceDemoTestProject\build\downloads\1719686891639_12792_1] in 1 [size=0]
+]]></system-err>
+</testsuite>
